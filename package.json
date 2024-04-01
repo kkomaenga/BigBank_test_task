@@ -1,0 +1,14 @@
+{
+  "name": "bigbank-test-task",
+  "version": "1.0.0",
+  "description": "Automated tests for calculator modal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alina Aleksandrova",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.7.1"
+  }
+}
