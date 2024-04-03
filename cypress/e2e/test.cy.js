@@ -1,26 +1,3 @@
-/* 
-  Running the Automated Tests:
-
-  1. Install Dependencies: Before running the tests, make sure to install the necessary dependencies by running:
-     ```
-     npm install
-     ```
-
-  2. Open Cypress Test Runner: To open the Cypress test runner, use the following command:
-     ```
-     npx cypress open
-     ```
-     This will open the Cypress UI, where you can select and run individual test cases or the entire test suite.
-
-  3. Run Tests in Headless Mode: To run the tests in headless mode and generate a Mochawesome report, use the following command:
-     ```
-     npx cypress run
-     ```
-     This will run all the tests in the terminal without opening the Cypress UI and generate a Mochawesome HTML report in the `mochawesome-report` directory.
-
-  4. View Test Report: After running the tests, you can view the Mochawesome HTML report by opening the `mochawesome-report/index.html` file in a web browser.
-*/
-
 describe('template spec', () => {
   beforeEach(() => {
     cy.visit('https://taotlus.bigbank.ee/?amount=5000&interestRate=13.8&period=60&productName=SMALL_LOAN&loanPurpose=DAILY_SETTLEMENTS&bbmedium=small_loan&bbmedium=cpc&bbchannel=sem&bbsource=google&bbcampaign=brand22');
