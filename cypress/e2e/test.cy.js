@@ -51,7 +51,7 @@ describe('template spec', () => {
     // Click anywhere in the calculator window to apply the changes
     clickAnywhereInCalculatorWindow();
     // Verify that the new monthly payment is automatically calculated
-    MonthlyPayment().should('contain', '€152.12');
+    MonthlyPayment().should('contain', '€152.07');
 
   });
   
@@ -85,7 +85,7 @@ describe('template spec', () => {
     clickAnywhereInCalculatorWindow();
 
     // Verify that the new monthly payment is automatically calculated
-    MonthlyPayment().should('contain', '€152.12'); 
+    MonthlyPayment().should('contain', '€152.07'); 
   });
 
   it('CM003 - Validation of Calculation Accuracy', () => {
